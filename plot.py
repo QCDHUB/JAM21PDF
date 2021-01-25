@@ -374,6 +374,7 @@ def plot_stf(Q2,mode=0):
     stfs = ['F2','FL','F3']
     data = {}
     data['p'] = {stf: [] for stf in stfs} 
+    data['d'] = {stf: [] for stf in stfs} 
 
     for tar in data:
         if tar == 'p': tablename = 'JAM21PDF-STF_proton'
@@ -384,9 +385,9 @@ def plot_stf(Q2,mode=0):
             F2 =  np.array([STF[i].xfxQ2(908,x,Q2)*x for x in X])
             FL =  np.array([STF[i].xfxQ2(909,x,Q2)*x for x in X])
             F3 =  np.array([STF[i].xfxQ2(910,x,Q2)*x for x in X])
-            data['p']['F2'].append(F2)
-            data['p']['FL'].append(FL)
-            data['p']['F3'].append(F3)
+            data[tar]['F2'].append(F2)
+            data[tar]['FL'].append(FL)
+            data[tar]['F3'].append(F3)
 
         for stf in data[tar]:
             mean = np.mean(data[tar][stf],axis=0)
@@ -434,9 +435,9 @@ def plot_stf(Q2,mode=0):
 
     handles,labels=[],[]
     handles.append(hand['p'])
-    #handles.append(hand['d'])
+    handles.append(hand['d'])
     labels.append(r'\boldmath$p$')
-    #labels.append(r'\boldmath$d$')
+    labels.append(r'\boldmath$d$')
     ax11.legend(handles,labels,frameon=False,loc='lower left',fontsize=28, handletextpad = 0.5, handlelength = 1.5, ncol = 1, columnspacing = 0.5)
 
     py.tight_layout()
