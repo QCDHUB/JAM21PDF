@@ -553,9 +553,6 @@ if __name__=="__main__":
     Q2   = 10
     mode = 1
 
-    plot_CCstf(Q2,mode=mode)
-    sys.exit()
-
     plot_pdfs(Q2,mode=mode)
     plot_ht(mode=mode)
     plot_off(Q2,mode=mode)
