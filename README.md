@@ -28,6 +28,8 @@ This work was supported by the US Department of Energy Contract No.~DE-AC05-06OR
 - proton higher twist STFs
 - neutron higher twist STFs
 
+NOTE: proton PDFs multiplied by x, rest are not
+
 ## LHAPDF info
 
 - SetDesc:         "JAM21-PDF NLO global analysis of proton PDFs with high-x inclusive DIS data"
