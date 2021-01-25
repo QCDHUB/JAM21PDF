@@ -32,7 +32,7 @@ NOTE: proton PDFs multiplied by x, rest are not
 
 ## LHAPDF info
 
-- SetDesc:         "JAM21-PDF NLO global analysis of proton PDFs with high-x inclusive DIS data"
+- SetDesc:         "JAM21-PDF NLO global analysis of proton PDFs from high-x Jefferson Lab to LHC"
 - Authors:         JAM Collaboration. C. Cocuzza, J. Ethier, A. Metz, W. Melnitchouk, N. Sato
 - Reference:       arXiv:2101.04664
 - Format:          lhagrid1
