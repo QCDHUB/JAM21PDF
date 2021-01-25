@@ -28,7 +28,7 @@ This work was supported by the US Department of Energy Contract No.~DE-AC05-06OR
 - proton higher twist STFs
 - neutron higher twist STFs
 
-NOTE: proton PDFs multiplied by x, rest are not
+NOTE: proton PDFs multiplied by x, other tables are not
 
 ## LHAPDF info
 
