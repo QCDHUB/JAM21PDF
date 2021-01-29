@@ -27,6 +27,7 @@ This work was supported by the US Department of Energy Contract No.~DE-AC05-06OR
 - deuteron leading twist STFs
 - proton higher twist STFs
 - neutron higher twist STFs
+- offshell corrections to F2 STF
 
 NOTE: proton PDFs multiplied by x, other tables are not
 
