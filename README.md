@@ -24,6 +24,7 @@ This work was supported by the US Department of Energy Contract No.~DE-AC05-06OR
 
 - proton PDFs
 - proton leading twist STFs
+- neutron leading twist STFs
 - deuteron leading twist STFs
 - proton higher twist STFs
 - neutron higher twist STFs

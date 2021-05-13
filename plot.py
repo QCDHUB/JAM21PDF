@@ -374,10 +374,12 @@ def plot_stf(Q2,mode=0):
     stfs = ['F2','FL','F3']
     data = {}
     data['p'] = {stf: [] for stf in stfs} 
+    data['n'] = {stf: [] for stf in stfs} 
     data['d'] = {stf: [] for stf in stfs} 
 
     for tar in data:
         if tar == 'p': tablename = 'JAM21PDF-STF_proton'
+        if tar == 'n': tablename = 'JAM21PDF-STF_neutron'
         if tar == 'd': tablename = 'JAM21PDF-STF_deuteron'
         STF = lhapdf.mkPDFs(tablename)
         nrep = len(STF)
@@ -394,6 +396,7 @@ def plot_stf(Q2,mode=0):
             std = np.std(data[tar][stf],axis=0)
 
             if tar=='p':   color='firebrick'
+            elif tar=='n': color='darkgreen'
             elif tar=='d': color='darkcyan'
 
             if stf =='F2':   ax = ax11
@@ -435,8 +438,10 @@ def plot_stf(Q2,mode=0):
 
     handles,labels=[],[]
     handles.append(hand['p'])
+    handles.append(hand['n'])
     handles.append(hand['d'])
     labels.append(r'\boldmath$p$')
+    labels.append(r'\boldmath$n$')
     labels.append(r'\boldmath$d$')
     ax11.legend(handles,labels,frameon=False,loc='lower left',fontsize=28, handletextpad = 0.5, handlelength = 1.5, ncol = 1, columnspacing = 0.5)
 
@@ -557,7 +562,6 @@ if __name__=="__main__":
     plot_pdfs(Q2,mode=mode)
     plot_ht(mode=mode)
     plot_off(Q2,mode=mode)
-    #--need to add deuteron
     plot_stf(Q2,mode=mode)
     plot_CCstf(Q2,mode=mode)
 
