@@ -13,7 +13,9 @@ N/A
 
 ## Abstract
 
-We present a new global analysis of spin-averaged parton distribution functions (PDFs) including all the world data on inclusive deep inelastic scattering (DIS) measurements from Jefferson Lab energies up to HERA kinematics using the JAM MC framework. The analysis includes for the first time W/Z production in hadron-hadron collisions from the LHC providing new constraints on PDFs at high-x.  We explore the complex correlations in DIS between the extracted PDFs with  target mass corrections, higher twist effects as well as nuclear corrections for deuterium targets, providing new insights on bounded nucleons within nuclei. The analysis provides state-of-the-art collinear PDFs suitable for further exploration of nucleon structure in SIDIS programs at the Jefferson Lab 12 GeV and the future Electron Ion Collider.
+We report the results of a Monte Carlo global QCD analysis of unpolarized parton distribution functions (PDFs), including for the first time constraints from ratios of $^3$He to $^3$H structure functions recently obtained by the \mar experiment at Jefferson Lab.
+Our simultaneous analysis of nucleon PDFs and nuclear effects in $A\!=\!2$ and $A\!=\!3$ nuclei reveals the first indication for an isovector nuclear EMC effect in light nuclei.
+We find that while the \mar data yield relatively weak constraints on the $F_2^n/F_2^p$ neutron to proton structure function ratio and on the $d/u$ PDF ratio, they suggest an enhanced nuclear effect on the $d$-quark PDF in the bound proton, questioning the assumptions commonly made in nuclear PDF analyses.
 
 ## Acknowledgements
 
