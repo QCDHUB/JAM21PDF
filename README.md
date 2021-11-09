@@ -19,7 +19,11 @@ We find that while the \mar data yield relatively weak constraints on the $F_2^n
 
 ## Acknowledgements
 
-This work was supported by the US Department of Energy Contract No.~DE-AC05-06OR23177, under which Jefferson Science Associates, LLC operates Jefferson Lab, and the National Science Foundation under grant number PHY-1516088. The work of A.M. has also been supported by the U.S. Department of Energy, Office of Science, Office of Nuclear Physics, within the framework of the TMD Topical Collaboration. We thank Carlota Andres for the creation of the HERA data vs. theory figures.  We also thank Yiyu Zhou and Patrick Barry for helpful discussions.
+We thank F.~Ringer and W.~Vogelsang for the code used for calculating the $W$-lepton cross sections, and A.~Accardi, P.~Barry, I.~Fernando and Y.~Zhou for helpful discussions.
+This work was supported by the US Department of Energy Contract No.~DE-AC05-06OR23177, under which Jefferson Science Associates, LLC operates Jefferson Lab, and the National Science Foundation under grant number PHY-1516088.
+The work of C.C. and A.M. was supported by the US Department of Energy, Office of Science, Office of Nuclear Physics, within the framework of the TMD Topical Collaboration, and by Temple University (C.C.).
+The work of A.W.T. was supported by the University of Adelaide and by the Australian Research Council through the Discovery Project DP180100497.
+The work of N.S. was supported by the DOE, Office of Science, Office of Nuclear Physics in the Early Career Program.
 
 ## Tables
 
