@@ -1,6 +1,6 @@
-SetDesc:         "JAM21-PDF NLO global analysis of proton PDFs from high-x Jefferson Lab to LHC"
+SetDesc:         "JAM21-PDF NLO global analysis of proton PDFs including SeaQuest and MARATHON data"
 SetIndex:        1
-Authors:         JAM Collaboration. C. Cocuzza, J. Ethier, W. Melnitchouk, A. Metz, N. Sato
+Authors:         JAM Collaboration. C. Cocuzza, W. Melnitchouk, A. Metz, N. Sato
 Reference:       N/A
 Format:          lhagrid1
 DataVersion:     1
