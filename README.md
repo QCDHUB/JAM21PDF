@@ -3,7 +3,6 @@
 ## Authors
 
 - C. Cocuzza (Temple)
-- J. Ethier (Nikhef)
 - W. Melnitchouk (JLab)
 - A. Metz (Temple)
 - N. Sato (JLab)
@@ -34,8 +33,8 @@ NOTE: proton PDFs multiplied by x, other tables are not
 
 ## LHAPDF info
 
-- SetDesc:         "JAM21-PDF NLO global analysis of proton PDFs from high-x Jefferson Lab to LHC"
-- Authors:         JAM Collaboration. C. Cocuzza, J. Ethier, A. Metz, W. Melnitchouk, N. Sato
+- SetDesc:         "JAM21-PDF NLO global analysis of proton PDFs"
+- Authors:         JAM Collaboration. C. Cocuzza, A. Metz, W. Melnitchouk, N. Sato
 - Reference:       arXiv:2101.04664
 - Format:          lhagrid1
 - DataVersion:     1
